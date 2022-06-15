@@ -1,11 +1,7 @@
-from genericpath import exists
-from locale import normalize
-from typing import List
+
 import logging
-from venv import create
-import requests
-from fastapi import APIRouter, HTTPException, UploadFile, File, Request, BackgroundTasks, Response, Depends
-from db.database import SessionLocal, engine
+from fastapi import APIRouter, Response, Depends
+from db.database import SessionLocal
 from sqlalchemy.orm import Session
 import datetime as dt
 

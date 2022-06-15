@@ -1,7 +1,5 @@
-from fastapi import FastAPI, BackgroundTasks, Response, Depends, HTTPException, Request
-import json
+from fastapi import FastAPI, Response, Request
 from db.database import SessionLocal, engine
-from sqlalchemy.orm import Session
 from api.data import router
 from db import models
 

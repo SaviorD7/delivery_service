@@ -1,6 +1,3 @@
-from datetime import datetime
-from re import A
-from .data import get_data_from_sheet
 import datetime as dt
 import requests
 import xml.etree.ElementTree as ET

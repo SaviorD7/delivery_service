@@ -1,11 +1,7 @@
 # Import objects
-from importlib.metadata import metadata
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
-
-from contextlib import closing
-import socket
 
 # Settings as shown in docker-compose.yml
 

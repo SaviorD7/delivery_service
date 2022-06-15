@@ -1,7 +1,5 @@
 from xmlrpc.client import DateTime
-from sqlalchemy import Boolean, Column, Float, ForeignKey, Integer, String, BigInteger, DateTime
-from sqlalchemy.orm import relationship
-
+from sqlalchemy import Column, Float, Integer, BigInteger, DateTime
 from db.database import Base
 
 class Information(Base):

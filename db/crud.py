@@ -1,4 +1,3 @@
-from dataclasses import is_dataclass
 from datetime import datetime
 from sqlalchemy.orm import Session
 from sqlalchemy import exc
